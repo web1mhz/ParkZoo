@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.web1mhz.parkzoo.MainActivity">
+
+   <item android:id="@+id/mapTypeNone"
+       android:orderInCategory="100"
+       android:title="@string/map_type_None"/>
+    <item android:id="@+id/mapTypeNormal"
+        android:title="@string/map_type_Normal"/>
+    <item android:id="@+id/mapTypeTerrain"
+        android:title="@string/map_type_Terrain"/>
+    <item android:id="@+id/mapTypeSatellite"
+        android:title="@string/map_type_Satellite"/>
+    <item android:id="@+id/mapTypeHybrid"
+        android:title="@string/map_type_Hybrid"/>
+
+
+</menu>

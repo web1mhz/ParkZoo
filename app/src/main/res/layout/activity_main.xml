@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.web1mhz.parkzoo.LoginActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mainToolbar"
+            android:layout_width="match_parent"
+            android:titleTextColor="#fff"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/scheduleButton"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/forestGreen"-->
+            <!--android:text="생물종목록"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/courseButton"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/forestGreen"-->
+            <!--android:text="생물종검색"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold" />-->
+
+
+
+        <!--<Button-->
+            <!--android:id="@+id/statisticButton"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/forestGreen"-->
+            <!--android:text="통계"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/notice"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:orientation="vertical"-->
+                <!--android:background="@color/forestGreen"-->
+                <!--android:layout_marginTop="5dp">-->
+
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="#FFFFFF"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="20dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="공지사항"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                    <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+            <!--</LinearLayout>-->
+
+            <ListView
+                android:id="@+id/noticeListView"
+                android:layout_margin="10dp"
+                android:dividerHeight="10dp"
+                android:divider="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </LinearLayout>
+
+        //frgment가 들어올 자리
+        <RelativeLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+</LinearLayout>

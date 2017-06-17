@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.web1mhz.parkzoo.MainActivity">
+
+    <item android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_list"
+        android:orderInCategory="100"
+        android:title="@string/action_searching"
+        android:icon="@drawable/ic_action_list"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_searching"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_statistic"
+        android:orderInCategory="100"
+        android:title="@string/action_searching"
+        android:icon="@drawable/ic_action_graph"
+        app:showAsAction="always"/>
+
+
+</menu>

@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">국립공원 생물도감</string>
+
+    <string-array name="park">
+        <item> 지리산국립공원</item>
+        <item> 설악산국립공원</item>
+        <item> 주왕산국립공원</item>
+        <item> 경주국립공원</item>
+        <item> 속리산국립공원</item>
+        <item> 가야산국립공원</item>
+        <item> 월악산국립공원</item>
+        <item> 치악산국립공원</item>
+        <item> 월출산국립공원</item>
+        <item> 무등산국립공원</item>
+        <item> 태백산국립공원</item>
+        <item> 변산반도국립공원</item>
+        <item> 태안해안국립공원</item>
+        <item> 한려해상국립공원</item>
+        <item> 북한산원연구원</item>
+        <item> 오대산국립공원</item>
+        <item> 계룡산국립공원원</item>
+        <item> 국립공원연구원</item>
+    </string-array>
+
+    <string-array name="taxon">
+        <item> 식물상</item>
+        <item> 식생</item>
+        <item> 포유류</item>
+        <item> 어류</item>
+        <item> 양서류</item>
+        <item> 파충류</item>
+        <item> 곤충류</item>
+        <item> 저서성대형무척추동물</item>
+        <item> 고등균류</item>
+        <item> 거미류</item>
+        <item> 담수조류</item>
+        <item> 조류</item>
+        <item> 해조류</item>
+        <item> 해초류</item>
+        <item> 경성기질무척추동물</item>
+        <item> 연성기질무척추동물</item>
+        <item> 환형동물</item>
+        <item> 태형동물</item>
+    </string-array>
+
+    <string-array name="landTaxon">
+        <item> 식물상</item>
+        <item> 식생</item>
+        <item> 포유류</item>
+        <item> 어류</item>
+        <item> 양서류</item>
+        <item> 파충류</item>
+        <item> 곤충류</item>
+        <item> 저서성대형무척추동물</item>
+        <item> 고등균류</item>
+        <item> 거미류</item>
+        <item> 담수조류</item>
+        <item> 조류</item>
+    </string-array>
+
+    <string-array name="seaTaxon">
+        <item> 해조류</item>
+        <item> 해초류</item>
+        <item> 경성기질무척추동물</item>
+        <item> 연성기질무척추동물</item>
+        <item> 환형동물</item>
+        <item> 태형동물</item>
+    </string-array>
+
+    <string-array name="year">
+        <item> 2000년도</item>
+        <item> 2001년도</item>
+        <item> 2002년도</item>
+        <item> 2003년도</item>
+        <item> 2004년도</item>
+        <item> 2005년도</item>
+        <item> 2006년도</item>
+        <item> 20107도</item>
+        <item> 2008년도</item>
+        <item> 2009년도</item>
+        <item> 2010년도</item>
+        <item> 2011년도</item>
+        <item> 2012년도</item>
+        <item> 2013년도</item>
+        <item> 2014년도</item>
+        <item> 2015년도</item>
+        <item> 2016년도</item>
+        <item> 2016년도</item>
+
+    </string-array>
+
+    <string-array name="spClass">
+        <item> 식물상</item>
+        <item> 식생</item>
+        <item> 포유류</item>
+        <item> 어류</item>
+        <item> 양서류</item>
+        <item> 파충류</item>
+        <item> 곤충류</item>
+        <item> 저서성대형무척추동물</item>
+        <item> 고등균류</item>
+        <item> 거미류</item>
+        <item> 담수조류</item>
+        <item> 조류</item>
+    </string-array>
+
+    <string-array name="landArea">
+        <item> 식물상</item>
+        <item> 식생</item>
+        <item> 포유류</item>
+        <item> 어류</item>
+        <item> 양서류</item>
+        <item> 파충류</item>
+        <item> 곤충류</item>
+        <item> 저서성대형무척추동물</item>
+        <item> 고등균류</item>
+        <item> 거미류</item>
+        <item> 담수조류</item>
+        <item> 조류</item>
+    </string-array>
+
+    <string-array name="seaArea">
+        <item> 해조류</item>
+        <item> 해초류</item>
+        <item> 경성</item>
+    </string-array>
+
+
+    <string-array name="graduateArea">
+        <item> 해조류</item>
+        <item> 해초류</item>
+        <item> 경성</item>
+    </string-array>
+
+    <string-array name="universityArea">
+        <item> 탐방</item>
+        <item> 훼손지</item>
+        <item> 시설</item>
+    </string-array>
+
+    <string-array name="term">
+        <item> 1분기</item>
+        <item> 2분기</item>
+        <item> 3분기</item>
+        <item> 4분기</item>
+    </string-array>
+    <string name="title_activity_bee_detail">BeeDetail</string>
+    <string name="title_activity_bee_detail_c">상세내용</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="google_api_key">AIzaSyAuthvAYjpVLQbPBwt1cDevEbgjLbXH_3Q</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="map_type_None">None</string>
+    <string name="map_type_Normal">Normal</string>
+    <string name="map_type_Terrain">Terrain</string>
+    <string name="map_type_Satellite">Satellite</string>
+    <string name="map_type_Hybrid">Hybrid</string>
+    <string name="title_activity_map2">Map2Activity</string>
+
+
+    <string name="action_settings">Setting</string>
+    <string name="action_searching">Search...</string>
+    <string name="action_listing">List</string>
+    <string name="action_statistic">Statistic</string>
+    <string name="title_activity_map3">Map</string>
+    <string name="title_activity_map">Map</string>
+
+
+</resources>
+
+

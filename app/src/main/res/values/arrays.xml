@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="ynKind" id="N0001">    
+		<item id="Y">예</item>
+		<item id="N">아니요</item>
+	</string-array>  
+    <string-array name="searchScope" id="N0002">
+        <!-- <item>선택</item> -->
+        <item id="01">로컬</item>
+        <item id="02">서버</item>
+        <!-- <item>전체</item> -->
+    </string-array>
+    <string-array name="searchItem" id="N0003">
+    	<item id="99">전체</item>
+        <item id="01">국명</item>
+        <item id="02">국립공원명칭</item>
+        <item id="03">조사지역(주소)</item>
+        <item id="04">조사일자</item>
+        <item id="05">조사자ID</item>
+    </string-array>
+    <string-array name="subjectNm" id="85002">
+		<item id="N">자연자원조사</item>
+		<item id="M">자원모니터링</item>
+		<item id="D">훼손지복구모니터링</item>
+		<item id="S">특별보호구 모니터링</item>
+		<item id="E">기타</item>
+    </string-array>
+    <string-array name="nationalParkNm" id="40451">
+		<item id="11">지리산</item>
+		<item id="12">계룡산</item>
+		<item id="13">한려해상</item>
+		<item id="14">설악산</item>
+		<item id="15">속리산</item>
+		<item id="16">내장산</item>
+		<item id="17">내장산백암</item>
+		<item id="18">가야산</item>
+		<item id="19">덕유산</item>
+		<item id="20">오대산</item>
+		<item id="21">주왕산</item>
+		<item id="22">태안해안</item>
+		<item id="23">다도해해상</item>
+		<item id="24">치악산</item>
+		<item id="25">월악산</item>
+		<item id="26">북한산</item>
+		<item id="27">소백산</item>
+		<item id="28">월출산</item>
+		<item id="29">변산반도</item>
+		<item id="30">경주</item>
+		<!-- NRRS START 2014.07.11 송상구 : 무등산국립공원 추가 -->
+		<item id="31">무등산</item>
+		<!-- NRRS END   2014.07.11 송상구 : 무등산국립공원 추가 -->
+    </string-array>
+	<string-array name="weather" id="39998">
+		<item id="1">맑음</item>
+		<item id="2">갬</item>
+		<item id="3">흐림</item>
+		<item id="4">비</item>
+		<item id="5">눈</item>
+	</string-array>    
+	<string-array name="windSpeed" id="85080">    
+		<item id="1">강</item>
+		<item id="2">중</item>
+		<item id="3">약</item>
+		<item id="4">건전</item>
+	</string-array>    
+	<string-array name="researchMeans" id="85045">    
+		<item id="ME1">직접관찰</item>
+		<item id="ME2">트랩</item>
+		<item id="ME3">청문</item>
+	</string-array>    
+	<string-array name="protectionGrade" id="80210">    
+		<item id="A">천연기념물</item>
+		<item id="B">국보</item>
+		<item id="C">보물</item>
+		<item id="D">지방문화재</item>
+		<item id="E">멸종위기</item>
+		<item id="F">보호대상동식물</item>
+		<item id="Z">공원자원</item>
+	</string-array>
+	<string-array name="koreanName" id="NOITEM">
+		<item>물닭</item>
+		<item>장다리물떼새</item>
+		<item>흰목물떼새</item>
+		<item>꼬마물떼새</item>
+		<item>왕눈물떼새</item>
+		<item>알락꼬리마도요</item>
+		<item>알락도요</item>
+		<item>뒷부리도요</item>
+		<item>깝작도요</item>
+		<item>꺅도요사촌</item>
+		<item>메추라기도요</item>
+		<item>민물도요</item>
+		<item>괭이갈매기</item>
+		<item>수리갈매기</item>
+		<item>붉은부리갈매기</item>
+		<item>바다쇠오리</item>
+		<item>흑비둘기</item>
+		<item>멧비둘기</item>
+		<item>검은등뻐꾸기</item>
+		<item>수리부엉이</item>
+		<item>솔부엉이</item>
+		<item>쇠칼새</item>
+		<item>물총새</item>
+		<item>후투티</item>
+		<item>개미잡이</item>
+		<item>쇠딱다구리</item>
+		<item>오색딱다구리</item>
+		<item>청딱다구리</item>
+		<item>제비</item>
+		<item>백할미새</item>
+	</string-array>	
+	<string-array name="scientificName" id="NOITEM">
+		<item>Buteo buteo</item>
+		<item>Falco tinnunculus</item>
+		<item>Bonasa bonasia</item>
+		<item>Fulica atra</item>
+		<item>Himantopus himantopus</item>
+		<item>Charadrius placidus</item>
+		<item>Charadrius dubius</item>
+		<item>Charadrius mongolus</item>
+		<item>Numenius madagascariensis</item>
+		<item>Tringa glareola</item>
+		<item>Xenus cinereus</item>
+		<item>Actitis hypoleucos</item>
+		<item>Gallinago megala</item>
+		<item>Calidris acuminata</item>
+		<item>Calidris alpina</item>
+		<item>Larus crassirostris</item>
+		<item>Larus glaucescens</item>
+		<item>Larus ridibundus</item>
+		<item>Synthliboramphus antiquus</item>
+		<item>Columba janthina</item>
+		<item>Streptopelia orientalis</item>
+		<item>Cuculus micropterus</item>
+		<item>Bubo bubo</item>
+		<item>Ninox scutulata</item>
+		<item>Apus affinus</item>
+		<item>Alcedo atthis</item>
+		<item>Upupa epops</item>
+		<item>Jynx torquilla</item>
+		<item>Dendrocopos kizuki</item>
+		<item>Dendrocopos major</item>
+	</string-array>	
+	<string-array name="gender" id="G001">
+		<item id="G1">남</item>
+		<item id="G2">여</item>
+	</string-array>
+	
+	<string-array name="level" id="LVL">
+		<item id="LVL01">강</item>
+		<item id="LVL02">중</item>
+		<item id="LVL02">약</item>
+		<item id="LVL02">건전</item>
+	</string-array>
+	
+	<string-array name="step" id="STP">
+		<item id="STP01">강</item>
+		<item id="STP02">중</item>
+		<item id="STP02">약</item>
+	</string-array>
+	
+	<string-array name="zone" id="ZON">
+		<item id="ZON01">하천</item>
+		<item id="ZON02">산악</item>
+	</string-array>
+	
+	<string-array name="wind" id="WID">
+		<item id="WID01">신선</item>
+		<item id="WID02">약간풍화</item>
+		<item id="WID02">중간풍화</item>
+		<item id="WID02">많이풍화</item>
+		<item id="WID02">완전풍화</item>
+	</string-array>
+	
+	<string-array name="name1" id="NM1">
+		<item id="NM101">산지</item>
+		<item id="NM102">평지 및 하천</item>
+		<item id="NM102">카르스트</item>
+		<item id="NM102">해안</item>
+		<item id="NM102">화산</item>
+	</string-array>
+	
+	<string-array name="name2" id="NM2">
+		<item id="NM201">침식 및 풍화</item>
+		<item id="NM202">퇴적</item>
+	</string-array>
+	
+	<string-array name="name3" id="NM3">
+		<item id="NM301">급애</item>
+		<item id="NM302">암석돔</item>
+		<item id="NM303">판상절리</item>
+		<item id="NM304">토르</item>
+		<item id="NM305">악지</item>
+		<item id="NM306">고위평탄면</item>
+		<item id="NM307">고립구릉</item>
+		<item id="NM308">권곡</item>
+		<item id="NM309">설식와지</item>
+		<item id="NM310">풍화동굴</item>
+		<item id="NM311">그루브</item>
+		<item id="NM312">나마</item>
+		<item id="NM313">산지타포니</item>
+		<item id="NM314">단층(선)곡</item>
+		<item id="NM315">삼각말단면</item>
+	</string-array>
+	
+</resources>
